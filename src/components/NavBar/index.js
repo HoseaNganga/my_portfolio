@@ -102,7 +102,7 @@ const NavBar = () => {
                 color: "white",
                 width: "max-content",
               }}
-              href={Bio.github}
+              href='https://github.com/'
               target="_blank"
             >
               Github Profile
