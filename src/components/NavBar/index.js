@@ -51,7 +51,7 @@ const NavBar = () => {
           <NavLink href="#contact">Contact</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton>Github Profile</GitHubButton>
+          <GitHubButton href={Bio.github} >Github Profile</GitHubButton>
         </ButtonContainer>
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
@@ -102,7 +102,7 @@ const NavBar = () => {
                 color: "white",
                 width: "max-content",
               }}
-              href='https://github.com/'
+              href={Bio.github}
               target="_blank"
             >
               Github Profile
