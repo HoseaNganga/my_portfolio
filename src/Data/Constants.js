@@ -129,40 +129,144 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    role: "Front End Developer Intern",
-    company: "FlexiSaf Edusoft Limited.",
-    date: "May 2024-present",
-    desc: "As a Front-End Developer in my current position, I am actively involved in working on the front-end portion of the company's website  using ReactJS, Redux, and Material UI ensuring it is visually appealing and user-friendly. I debug and test front-end code to maintain optimal performance and functionality. Additionally, I teach entry-level attachés how to code, helping them develop their skills and understand best practices in front-end development.",
+    role: "Frontend Developer",
+    company: "Join Momentum",
+    date: "Oct 2024 - Present",
+    location: "United Kingdom · Remote",
+    desc: "As a Frontend Developer at Join Momentum, I am building and enhancing a cutting-edge platform using TypeScript, Next.js, and React. The platform provides immersive job simulation experiences, tailored to various job roles and skill levels. I focus on optimizing performance through rigorous testing and improvements to enhance speed, responsiveness, and scalability. Additionally, I collaborate closely with the team to integrate user feedback, continuously refining the platform to meet the diverse needs of candidates and align with the latest AI and hiring trends.",
     skills: [
-      "JavaScript",
       "TypeScript",
-      "Node Js",
+      "Next.js",
       "React",
-      "Material UI",
-      " Next Js",
+      "Tailwind Css",
+      "Performance Optimization",
+      "AI Integration",
+      "User Feedback Integration",
     ],
   },
   {
     id: 1,
     role: "Frontend Developer",
-    company: "Angaza Real Estate",
-    date: "August 2023 - December 2023",
-    desc: "As a Front-End Developer, I designed and implemented responsive UI/UX solutions to ensure a seamless and intuitive browsing experience for users across all devices. I revamped the website by migrating the existing system to a modern and more efficient platform, resulting in improved performance, scalability, and user engagement. Additionally, I collaborated with UX designers, business analysts, and systems analysts to identify key pain points in core business processes and developed innovative solutions to streamline workflows and enhance productivity.",
-    skills: ["ReactJS", "Redux", "NodeJs", "Javascript", "HTML", "CSS"],
+    company: "HopStair®",
+    date: "Aug 2024 - Present",
+    location: "United States · Remote",
+    desc: "As a Frontend Developer at HopStair®, I am responsible for building and enhancing the user interface of a mobile app designed to help users build and track their confidence milestones. Using React Native and JavaScript, I focus on creating a seamless and intuitive user experience, ensuring the app is engaging and easy to navigate. My work includes developing interactive features that enable users to track their progress and achieve personal growth goals. I collaborate closely with UX designers and back-end developers to ensure a cohesive design and functionality, maintaining a high standard of app performance. I also conduct rigorous testing and debugging to optimize app functionality, quickly identify issues, and enhance the overall user experience. Additionally, I leverage user feedback to continuously refine features, ensuring the app effectively meets users' needs and helps them achieve their confidence-building objectives.",
+    skills: [
+      "React Native",
+      "JavaScript",
+      "Android Development",
+      "Mobile App Development",
+      "UI/UX Design",
+      "Feature Development",
+      "Testing and Debugging",
+      "User Feedback Integration",
+    ],
   },
+
   {
     id: 2,
-    role: "Frontend Developer",
-    company: "Chosen Comercial Agencies Limited",
-    date: "March 2023 - July 2023",
-    desc: "As a Front-End Developer, I designed and implemented responsive UI/UX solutions to ensure a seamless browsing experience across various devices. I fixed bugs in the website's front-end codebase, significantly improving site performance and user experience. Additionally, I optimized the website for search engine visibility by implementing SEO best practices, including optimizing meta tags, improving site speed, and enhancing mobile responsiveness.",
-    skills: ["ReactJS", "Redux", "NodeJs", "HTML", "CSS", "JavaScript"],
+    role: "Front-End Developer Intern",
+    img: "data:image/png;base64,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",
+    company: "FlexiSAF Edusoft Limited",
+    date: "Feb 2024 - Aug 2024",
+    location: "Nigeria · Remote",
+    desc: "As a Front-End Developer Intern at FlexiSAF Edusoft Limited, I contributed to the development of the company's website by building a user-friendly and visually appealing front-end using ReactJS, Redux, and Material UI. My work helped improve user engagement by 20%, creating a seamless experience for visitors. I was also responsible for performance optimization, where I debugged and tested front-end code, leading to a 30% reduction in load times and overall improved functionality, enhancing the site's user experience. Additionally, I took on a mentorship role, teaching entry-level attachés coding best practices and guiding them in building their foundational skills. This initiative led to a 10% improvement in code quality across various projects, contributing to increased team productivity.",
+    skills: [
+      "ReactJS",
+      "Redux",
+      "Material UI",
+      "JavaScript",
+      "Performance Optimization",
+      "Mentorship",
+      "UI/UX Design",
+      "Front-End Development",
+    ],
+  },
+
+  {
+    id: 3,
+    role: "Front-End Developer",
+    company: "Angaza Real Estate",
+    date: "Aug 2023 - Dec 2023",
+    location: "Nairobi, Kenya · On-site",
+    desc: "As a Front-End Developer at Angaza Real Estate, I was responsible for designing and implementing a responsive UI/UX that contributed to a 20% increase in user engagement and a 15% reduction in bounce rates across devices. This ensured a seamless and intuitive browsing experience. I also conducted rigorous code testing and quality assurance, which resulted in a 15% decrease in reported bugs and a 20% improvement in load times, making the site more stable and efficient. Additionally, I led the migration of the website to a more modern platform, improving performance and scalability, leading to a 30% increase in site speed and a 40% boost in user retention. Working closely with cross-functional teams, including UX designers, business analysts, and systems analysts, I helped streamline workflows, reducing task completion time by 25% and increasing overall productivity by 20%. This improved alignment with the company's digital strategy.",
+    skills: [
+      "ReactJS",
+      "UI/UX Design",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Performance Optimization",
+      "Cross-functional Collaboration",
+      "Platform Migration",
+      "Code Testing & Quality Assurance",
+    ],
+  },
+
+  {
+    id: 4,
+    role: "Front-End Developer",
+    company: "Chosen Commercial Agencies Ltd",
+    date: "Mar 2023 - Jul 2023",
+    location: "Remote",
+    desc: "As a Front-End Developer at Chosen Commercial Agencies, I focused on designing and implementing a responsive UI/UX that resulted in a 20% increase in mobile traffic and a 10% improvement in time spent on the site, providing a seamless browsing experience across devices. I conducted thorough quality assurance and testing, which led to a 20% reduction in front-end errors, enhancing overall functionality and ensuring a smoother user experience. I also resolved critical front-end bugs, optimizing site performance and stability, resulting in a 25% faster page load time and a 30% increase in user satisfaction. In addition, I implemented SEO best practices, boosting organic search traffic by 20% and improving mobile responsiveness, which contributed to a 10% rise in search engine rankings.",
+    skills: [
+      "ReactJS",
+      "UI/UX Design",
+      "SEO Optimization",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Performance Optimization",
+      "Bug Fixing",
+      "Testing & Quality Assurance",
+    ],
   },
 ];
 
 export const projects = [
   {
     id: 0,
+    title: "E-Commerce-App (Client)",
+    date: "August 2024 - September 2024",
+    description:
+      "Developed a fullstack ecommerce application.The client side of the application allows users to browse products, view details, and add items to their shopping cart. It features a modern, user-friendly interface built with React, Material UI, and React Router. The client side includes functionalities like searching for products, viewing product details, and managing the shopping cart. The design is responsive, ensuring a seamless experience across devices.",
+    image:
+      "https://raw.githubusercontent.com/HoseaNganga/fullstack-ecommerce-client/refs/heads/main/src/screenshot/fullstack-ecommerce-client.netlify.app_.png",
+    tags: [
+      "React",
+      "Express Js",
+      "Tailwind CSS",
+      "BootStrap",
+      "MongoDb",
+      "JavaScript",
+    ],
+    category: "web app",
+    github: "https://github.com/HoseaNganga/fullstack-ecommerce-client",
+    webapp: "https://fullstack-ecommerce-client.netlify.app/",
+  },
+  {
+    id: 1,
+    title: "E-Commerce-App (Admin)",
+    date: "August 2024 - September 2024",
+    description:
+      "Developed a fullstack ecommerce application.The admin panel provides full control over product management and user interactions. Built with React and Material UI, it allows admins to log in, view and edit products, upload new items, and manage user accounts. The admin can also track sales performance, manage orders, and handle notifications and messages, all within an intuitive and secure dashboard. This side was developed to streamline the backend operations while maintaining a focus on usability and efficiency.",
+    image:
+      "https://raw.githubusercontent.com/HoseaNganga/fullstack-ecommerce-admin/refs/heads/main/src/screenshots/fullstack-ecommerce-admin.netlify.app_.png",
+    tags: [
+      "React",
+      "Express Js",
+      "Tailwind CSS",
+      "BootStrap",
+      "MongoDb",
+      "JavaScript",
+    ],
+    category: "web app",
+    github: "https://github.com/HoseaNganga/fullstack-ecommerce-admin",
+    webapp: "https://fullstack-ecommerce-admin.netlify.app/",
+  },
+  {
+    id: 2,
     title: "Blaze Bites",
     date: "Mar 2024 - Apr 2024",
     description:
@@ -175,7 +279,7 @@ export const projects = [
     webapp: "https://food-order-delivery-app.vercel.app/",
   },
   {
-    id: 1,
+    id: 3,
     title: "Prompt Quest App",
     date: "Apr 2024 - Apr 2024",
     description:
@@ -188,20 +292,7 @@ export const projects = [
     webapp: "https://prompt-quest-app.vercel.app/",
   },
   {
-    id: 2,
-    title: "E-Commerce-App",
-    date: "Feb 2024-Mar 2024",
-    description:
-      "Designed and developed the Shopify website which provides a layout of a shopping website using React.The application enables users to shop,order and pay for their cart items.Also made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize efficiency.",
-    image:
-      "https://user-images.githubusercontent.com/105128267/213868640-e3421f0a-bb10-4352-82a1-1bda4df821e9.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
-    github: "https://github.com/HoseaNganga/E-Commerce-App/tree/main",
-    webapp: "https://e-commerce-app-2kc.pages.dev/",
-  },
-  {
-    id: 3,
+    id: 4,
     title: "Gym App",
     date: "Feb 2024 - Mar 2024",
     description:
@@ -214,7 +305,7 @@ export const projects = [
     webapp: "https://gym-app-w3a.pages.dev/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Car Rental App",
     date: "Mar 2024 - Apr 2024",
     description:
@@ -227,7 +318,7 @@ export const projects = [
     webapp: "https://car-rental-app.pages.dev/",
   },
   {
-    id: 5,
+    id: 6,
     title: "CryptoDom",
     date: "Mar 2024 - Mar 2024",
     description:
@@ -240,7 +331,7 @@ export const projects = [
     webapp: "https://crypto-market-tracker-app.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Recipe App",
     date: "Jan 2024",
     description:
