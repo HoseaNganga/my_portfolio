@@ -31,7 +31,7 @@ const HeroSection = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentRoleIndex((prev) => (prev + 1) % Bio.roles?.length);
-    }, 5000);
+    }, 7000);
     return () => clearInterval(interval);
   }, []);
 
