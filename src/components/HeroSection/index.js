@@ -17,14 +17,7 @@ import {
   ResumeButton,
 } from "./HeroStyledComponent";
 
-
-
-
-
 const HeroSection = () => {
-
-  const currentRole = Bio.roles[currentRoleIndex];
-  const article = getArticle(currentRole);
   return (
     <div id="about">
       <HeroContainer>
