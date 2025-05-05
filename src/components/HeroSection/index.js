@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import { Bio } from "../../Data/Constants";
 import Typewriter from "typewriter-effect";
 import HeroImage from "../../images/profilepic.JPG";
@@ -17,7 +17,26 @@ import {
   ResumeButton,
 } from "./HeroStyledComponent";
 
+const getArticle=(role)=>{
+  const firstChar=role.trim()[0].toLowerCase();
+  const vowels=["a","e","i","o","u"];
+  return vowels.includes(firstChar)?"an":"a"
+}
+
+
+
 const HeroSection = () => {
+  const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentRoleIndex((prev) => (prev + 1) % Bio.roles?.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
+
+  const currentRole = Bio.roles[currentRoleIndex];
+  const article = getArticle(currentRole);
   return (
     <div id="about">
       <HeroContainer>
@@ -31,7 +50,7 @@ const HeroSection = () => {
               {Bio.name}
             </Title>
             <TextLoop>
-              I am a
+              I am {article}{" "}
               <Span>
                 <Typewriter
                   options={{
